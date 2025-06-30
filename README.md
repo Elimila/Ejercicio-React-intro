@@ -1,12 +1,27 @@
-# React + Vite
+# Ejercicio React - Intro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este Ejercicio fue creado durante el Bootcamp de Desarrollo Web Full Stack para practicar los fundamentos de React usando Vite.
 
-Currently, two official plugins are available:
+## Tecnologías usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- JavaScript
+- JSX
 
-## Expanding the ESLint configuration
+## Estructura del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/components/PersonFunctional.jsx`: componente funcional que recibe props (name, surname, age).
+- `src/components/PersonClass.jsx`: componente de clase que también usa props.
+- `src/components/Header.jsx`: componente funcional que muestra una cabecera con presentación personal.
+- `src/components/Home.jsx`: componente funcional con información sobre Elida y tecnologías que maneja.
+- `src/components/HeaderClass.jsx` y `HomeClass.jsx`: las versiones equivalentes usando componentes de clase.
+
+## Objetivo
+
+- Comprender la estructura básica de una app React con Vite.
+- Practicar el uso de props en componentes funcionales y de clase.
+- Construir una página personal usando componentes React.
+- Comparar componentes funcionales vs de clase.
+
+💻 Desarrollado por: **Elida Rodriguez**
