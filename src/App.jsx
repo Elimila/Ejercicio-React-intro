@@ -3,12 +3,16 @@ import PersonFunctional from './components/PersonFunctional';
 import PersonClass from './components/PersonClass';
 import Header from './components/Header';
 import Home from './components/Home';
+import HeaderClass from './components/HeaderClass';
+import HomeClass from './components/HomeClass';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Home />
+      <HeaderClass />
+      <HomeClass />
 
       <h1>Componentes Funcionales</h1>
       <PersonFunctional name="Elida" surname="Rodriguez" age={47} />
